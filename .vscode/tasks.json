@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang.exe сборка активного файла",
+			"command": "C:/LLVM/bin/clang.exe",
+			"args": [
+				"-g",
+				"${workspaceFolder}\\main.cpp",
+				"${workspaceFolder}\\headers\\src\\*.cpp",
+				"-o",
+				"${workspaceFolder}\\frc.exe",
+				"-std=c++17",
+				"-O3"
+			],
+			"options": {
+				"cwd": "C:/LLVM/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "компилятор: C:/LLVM/bin/clang.exe"
+		}
+	]
+}

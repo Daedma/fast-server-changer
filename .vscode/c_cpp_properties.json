@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/LLVM/bin/clang.exe",
+            "compilerArgs": [
+                "-std=c++17",
+                "-O3"
+            ],
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
